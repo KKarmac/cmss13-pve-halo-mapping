@@ -324,7 +324,7 @@
 
 /obj/item/attachable/scope/variable_zoom/oracle/night_vision
 	name = "\improper Oracle-N/2 \"VERGIL\""
-	desc= "Modified variant of Oracle-N variant scopes found in universal use by UNSC sniper rifles. This variant employs an updated VISR derived software update and new sensor suite, allowing for enhanced night fighting capability and improved thermal visual quality."
+	desc= "A newer model of the standard issue Oracle-N variant scope found in universal use with UNSC sniper rifles. The VERGIL employs numerous upgrades; including VISR derived software improvements and a new hardware package via an enhanced sensor suite. Both of these upgrades allowing for enhanced night fighting capability and improved thermal-optic quality."
 	var/lighting_alpha = 140
 
 /obj/item/attachable/scope/variable_zoom/oracle/night_vision/apply_scoped_buff(obj/item/weapon/gun/G, mob/living/carbon/user)
