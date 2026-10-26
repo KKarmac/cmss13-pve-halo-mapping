@@ -1736,8 +1736,7 @@
 	for(var/client/admin in GLOB.admins)
 		if(AHOLD_IS_MOD(admin.admin_holder))
 			to_chat(admin, SPAN_STAFF_IC(msg))
-			if(admin.prefs.toggles_sound & SOUND_ARES_MESSAGE)
-				admin << 'sound/machines/terminal_alert.ogg'
+			admin << 'sound/machines/terminal_alert.ogg'
 
 /mob/living/carbon/human/point_to_atom(atom/A, turf/T)
 	if(isitem(A))
