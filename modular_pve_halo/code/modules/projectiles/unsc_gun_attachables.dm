@@ -292,8 +292,8 @@
 	icon = 'icons/halo/obj/items/weapons/guns_by_faction/unsc/unsc_attachments.dmi'
 	icon_state = "srs_barrel_suppressed"
 	attach_icon = "srs_barrel_suppressed"
-	var/new_fire_sound = "gun_srs99_suppressed"
-	gun_traits = list(TRAIT_GUN_SILENCED)
+	G.muzzleflash_iconstate = null
+	G.fire_sound = "gun_srs99_suppressed"
 
 /obj/item/attachable/scope/variable_zoom/oracle
 	name = "\improper N-Variant oracle scope"
