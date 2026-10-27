@@ -106,5 +106,6 @@
 	attachable_allowed = list(/obj/item/attachable/srs_assembly, /obj/item/attachable/scope/variable_zoom/oracle, /obj/item/attachable/scope/variable_zoom/oracle/night_vision, /obj/item/attachable/srs_barrel, /obj/item/attachable/srs_barrel/suppressed, /obj/item/attachable/bipod/srs_bipod)
 	starting_attachment_types = list(/obj/item/attachable/scope/variable_zoom/oracle/night_vision, /obj/item/attachable/srs_barrel/suppressed, /obj/item/attachable/bipod/srs_bipod)
 	loud = FALSE
-	muzzle_flash = null
+	muzzleflash_icon = null
+	muzzleflash_iconstate = null
 	fire_sound = "gun_srs99_suppressed"
